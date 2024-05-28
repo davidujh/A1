@@ -1,0 +1,29 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+#wrap{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    height: 300px;
+
+}
+.earth{
+    background: url(../image/푸른지구.jpeg) no-repeat center;
+    height: 300px;
+}
+.item{
+    width: 5%;
+    height: 10px;
+    float: left;
+    
+}
+.item:nth-child(1){
+    background-color: blue;
+}
+.item:nth-child(2){
+    background-color: skyblue;
+}
+.item:nth-child(3){
+    background-color: aqua;
+}

@@ -1,0 +1,129 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+#papago{
+    width: 100%;
+}
+#image{
+    position: absolute;
+    top:20px;
+    left:20px;
+}
+.text1{
+    font-size: 20px;
+    position: relative;
+    top:20px;
+    left:200px;
+}
+.text1:nth-child(2){
+    margin-right:20px ;
+}
+.text1:nth-child(3){
+    margin-right: 50px;
+}
+#top{
+    width: 100%;
+    height: 800px;
+    
+    margin-top:55px;
+    border-top:solid 2px #ccc;
+    
+}
+#main1{
+    position: relative;
+    top: 70px;
+    left:300px;
+    height: 450px;
+    width: 700px;
+    background-color: #fff;
+    border : solid 2px #ccc;
+    border-radius: 20px;
+
+}
+#main2{
+    position: absolute;
+    top: 153px;
+    left:1050px;
+    height: 450px;
+    width: 700px;
+    background-color: #fff;
+    border : solid 2px #ccc;
+    border-radius: 20px;
+
+}
+#box1{
+    width: 100%;
+    height: 80px;
+    border-bottom: solid 2px #ccc;
+    padding: 20px 20px;
+}
+.lang{
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+#box2{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    border-bottom: solid 2px #ccc;
+    padding: 20px 20px;
+}
+.text{
+    font-size: 35px;
+    color: slategray;
+    text-shadow: 1px 1px 1px;
+}
+#max{
+    position: absolute;
+    right: 10px;
+    bottom:20px;
+    color:#ccc ;
+    font-size: 20px;
+}
+#box3{
+    position: relative;
+    width: 100%;
+    height: 70px;
+
+}
+.box{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-right: solid 2px #ccc;
+    
+}
+.green{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 150px;
+    height: 70px;
+    background-color: rgb(74, 199, 74);
+    padding: 20px 20px;
+    border-bottom-right-radius: 12px;
+    
+}
+.trans{
+    font-size: 25px;
+    color: #fff;
+    text-shadow: 1px 1px 1px;
+    cursor: pointer;
+}
+#box4{
+    width: 100%;
+    height: 80px;
+    border-bottom: solid 2px #ccc;
+    padding: 20px 20px;
+}
+#box5{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    border-bottom: solid 2px #ccc;
+    padding: 20px 20px;
+}
+#box6{
+    position: relative;
+    width: 100%;
+    height: 70px;
+}

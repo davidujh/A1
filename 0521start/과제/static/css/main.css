@@ -11,12 +11,14 @@
 .earth{
     background: url(../image/푸른지구.jpeg) no-repeat center;
     height: 300px;
+    margin-top: 50px;
 }
-.item{
-    width: 5%;
-    height: 10px;
-    float: left;
-    
+.item1{
+    width: 60px;
+    height: 20px;
+    display:inline-block;
+    border-radius: 10px;
+    background-color: aqua;
 }
 .item:nth-child(1){
     background-color: blue;
@@ -24,6 +26,5 @@
 .item:nth-child(2){
     background-color: skyblue;
 }
-.item:nth-child(3){
-    background-color: aqua;
-}
+
+

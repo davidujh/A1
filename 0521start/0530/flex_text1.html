@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <style>
+        #container1{
+            display:flex;
+            gap:20px
+        }
+        .item1{
+            padding: 0 10px;
+            cursor: pointer;
+        }
+        #container2{
+            display: flex;
+            width: 500px;
+        }
+        .item2{
+            flex-grow:1;
+            text-align:center;
+        }
+        #container3{
+            display: flex;
+            padding: 20px 0;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            width: 800px;
+            align-items:center;
+        }
+        .logo1>img{
+            width: 50px;
+            display: block;
+        }
+        #container3>ul{
+            margin: 0; padding: 0;
+            list-style-type:none;
+            display:flex;
+            flex-grow:1;
+            justify-content:space-evenly;
+        }
+
+    </style>
+    <h2>메뉴 만들기</h2>
+    <div id="container1">
+        <div class="item1">쇼핑</div>
+        <div class="item1">증권</div>
+        <div class="item1">뉴스</div>
+        <div class="item1">웹툰</div>
+        <div class="item1">스포츠</div>
+    </div>
+    <div id="container2">
+        <span class="item2">쇼핑</span>
+        <span class="item2">증권</span>
+        <span class="item2">뉴스</span>
+        <span class="item2">웹툰</span>
+        <span class="item2">스포츠</span>
+    </div>
+    <div id="container3">
+        <div class="logo1"><img src="http://loremflickr.com/200/200"></div>
+        <ul>
+            <li class="item">게임</li>
+            <li class="item">영화</li>
+            <li class="item">웹툰</li>
+            <li class="item">물놀이</li>
+            <li class="item">바캉스</li>
+        </ul>
+        
+    </div> -->
+
+    <!-- <style>
+    #header{
+        margin: 0; padding: 0; box-sizing: border-box;
+        width: 1800px;
+        height: 100px;
+        border: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+    }
+    #header>ul{
+        margin: 0;
+        padding: 0;
+        height: 100px;
+        display: flex;
+        gap:20px;
+        align-items: center;
+        list-style-type:none;
+        
+        
+    }
+    .item{
+        align-items: center;
+        font-size: 20px;
+        display: block;
+        margin-left: 10px;
+        display: flex;
+        
+        
+
+    }
+    .color{
+        background-color:forestgreen;
+        color: white;
+        width: 60px;
+        height: 60px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3px;
+        margin-left: 20px;
+        
+    }
+    #creator{
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 40px;
+        background-color: forestgreen;
+        position: relative;
+        bottom: 73px;
+        left: 1580px;
+        color: white;
+        border-radius: 5px;
+        
+        
+    }
+    </style>
+    <h2>메뉴 만들기 실습</h2>
+    <div id="header">
+        <ul>
+            <li class="item color">홈</li>
+            <li class="item">웹툰</li>
+            <li class="item">베스트도전</li>
+            <li class="item">도전만화</li>
+            <li class="item">마이페이지</li>
+        </ul>
+        <div id="creator" class="item">
+            <p>CREATOR'S</p>
+        </div>
+    </div> -->
+
+
+    <style>
+        #header{
+            width: 1000px;
+            display:flex ;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            height: 55px;
+            justify-content: space-between;
+
+        }
+        #left{
+            display: flex;
+            align-items:center;
+        }
+        #left .left_menu{
+            line-height: 55px;
+            padding:0 15px;
+            font-weight:800;
+
+        }
+        #left .left_menu:hover{
+            background: #00dc64;
+            color: white;
+        }
+        #right{
+            padding:7px 0;
+        }
+        #right .creator_bt{
+            border: 0;
+            border-radius: 5px;
+            background: #00dc64;
+            color: white;
+            height: 100%;
+            padding: 0 20px;
+            font-weight: 700;
+        }
+    </style>
+
+    <h2>메뉴 만들기 실습2</h2>
+    <div id="header">
+        <div id="left">
+            <div class="left_menu">홈</div>
+            <div class="left_menu">웹툰</div>
+            <div class="left_menu">베스트도전</div>
+            <div class="left_menu">도전만화</div>
+            <div class="left_menu">마이페이지</div>
+        </div>
+      
+    <div id="right">
+        <button class="creator_bt">CREATOR'S</button>
+    </div>
+    </div>  
+</body>
+</html>

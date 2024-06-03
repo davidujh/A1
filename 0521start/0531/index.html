@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script type="text/javascript">
+        //변수 - 데이터 저장된,저장될 수 있는 메모리(ram)  공간
+
+        num=10;
+        apple="나는 사과";
+        melon="나는 멜론";
+        melon=23.45;
+        melon=100;
+
+        document.write(10);
+        document.write(num);
+        document.write("나는 자바스크립트입니다.")
+
+        num=100;
+        document.write("<br>")
+        document.write( num *5  )
+        // 사각형의 너비는 45이고, 높이는 15일 경우 넓이는 얼마인가?
+        width=45;
+        height=15;
+
+        document.write("<br>");
+        document.write("사각형의 너비는");
+        document.write(width);
+        document.write("높이는" + height);  // "높이는 45"
+        document.write("<br>");
+        document.write("넓이는" + width*height);
+        
+        document.write("<hr>")
+
+
+        //국어 : 89 , 영어 : 94 , 수학 ; 78
+        //총점 : 261
+
+        kor=89;
+        eng=94;
+        mat=78;
+        document.write("<br>")
+        document.write("국어:" + kor)
+        document.write(" , 영어 :" + eng )
+        document.write(" , 수학 :" + mat)
+        document.write("<br>")
+        document.write("총점 :")
+        document.write(kor+eng+mat)
+        총점=kor+eng+mat
+
+        document.write("<hr>")
+        
+        // 커피 총 주문 금액과 수박주스 총 주문 금액 출력
+        // 음료 총 주문 금액 출력
+
+        커피주문 = 3;
+        수박주스주문=4;
+        아메리카노 = 1500;
+        수박주스 = 2000;
+
+        document.write("아메리카노 가격 : " + (아메리카노*3) + " , 수박주스 가격 : " 
+        + (수박주스*4) + "<br>" + " 총 가격 : " + (아메리카노*3 + 수박주스*4) )
+
+        redCup = 10;
+        blueCup = 20;
+        whiteCup = 0;
+
+        whiteCup = redCup;
+        redCup=blueCup;
+        blueCup=whiteCup;
+
+
+        //데이터 입력방법 1.
+        //prompt를 통해서 데이터를 입력할 수 있다./
+        //prompt로 입력한 데이터는 문자열이다.
+        //숫자로 계산하려면 숫자로 강제 변환을 해야한다.
+        //숫자로 변환이 가능한 문자열만 할 수 있다.
+        //"50"
+        //parseInt(문자열 ) -> 정수로 변환 "50aaa" -> 50
+        //parseFloat(문자열) -> 실수로 변환
+        //Number (문자열) -> 숫자로 변환 , 문자열에 단 하나의 문자도 있으면 안된다
+
+        // kor = parseInt (prompt("국어점수"));
+        // mat = parseInt (prompt("수학점수"));
+        // eng = number(prompt("영어점수"));
+
+        // document.write("<br> 국어 : " +kor + " 수학 : " +mat+ " 영어 : " +eng)
+        // document.write("<br> 총점 : " + total )
+
+        //실습 3.
+        // 이름과 거주 도시명 , 생년월일을 입력하여 출력하세요.
+
+
+        이름 = prompt("이름 :")
+        거주도시명 = prompt("거주도시명 : ")
+        생년월일 = prompt("생년월일 : ")
+        document.write("<br>    ")
+        document.write("이름 : " + 이름 + "<br>"+"거주도시명  :" + 거주도시명 + "<br>"+"생년월일  : " + 생년월일)
+
+
+
+    </script>
+
+</head>
+<body>  
+    
+
+
+</body>
+</html>

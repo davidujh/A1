@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <script>
+
+        //변수 - 단일 데이터가 저장된 메모리(ram) 공간
+        //변수의 이름은 의미있게 카멜 표기법으로 작성하는게 일반적
+        //random , randomAccess , randomAccessMomory
+        //변수명은 반드시 문자로 시작해야 한다
+        //변수명은 시스템(언어) 에약어를 사용하면 안된다.
+        
+        //자바스크립트 출력
+        //1. document.write(출력할 내용);
+        //document ->HTML 문서
+        //write->HTML 문서에서 body태그에 쓰기해라
+        //       HTML 문서에서 body엘리먼트 (body 객체) - 자바스크립트에서의 태그표현
+        //
+        //자바스크립트 입력
+        //1. prompt();
+        //prompt -> 현재페이지에 내부 창을 만들어서 화면에 표시하는 방법
+        //prompt 입력한 값은 문자열이다.
+        //문자열 이므로 숫자로 사용하려면 parseInt(),parseFloat(),Number() 같은
+        //                       문자열->숫자로 변환 해주는 함수를 사용해야한다.
+
+        gasolineCost = 1636
+
+
+        refuelCar = Number(prompt("주유 휘발유량 : " ));
+        //  
+
+
+        gasRrise = gasolineCost * refuelCar ;
+        //
+
+        document.write("상품명 : 휘발유(<br>)");
+        document.write("판매량 : "+ refuelCar + "<br>")
+        document.write("단가 : " + gasolineCost+"<br>")
+        document.write("지불금액 : "+gasRrise+"<br>")
+
+
+        document.write("<br>")
+
+        //문제 1.
+        //삼각형의 넓이를 구하세요 (밑변*높이/2)
+        //밑변과 높이를 prompt를 통해 입력받으세요.
+
+
+        line = Number(prompt("밑변 : "));
+
+        height = Number(prompt("높이 : "));
+
+        width = Math.floor(line*height/2);
+
+        document.write("삼각형의 넓이 : "+width);
+
+
+        //MATH.floor(숫자) -> 정수만 추출
+        //MATH.round(숫자) -> 소수점 이하를 반올림
+        //숫자저장된변수 num=20.345;
+        //20.345 -> 20.3으로 표현할려면
+        //num.toFixed(1) ->20.3 , num.toFixed(2) -> 20.34
+        //toFixed 의 결과값은 문자열이다.
+        //parseFloat(변수명.toFixed(소수점 자리수) ); -> 실수라는 숫자로
+   </script>
+
+
+
+</head>
+
+
+
+<body>
+    
+</body>
+</html>

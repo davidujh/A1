@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+      
+    function getData( op ){
+        var n1 = Number( document.getElementById("num1").value );
+        var n2 = Number( document.getElementById("num2").value );
+        var 결과=0;
+        switch( op ){
+            case '+':   결과 = n1+n2;
+                break;
+            case '-':   결과 = n1 - n2;
+                break;
+            case '*':  결과 = n1 * n2;
+                break;
+            case '/':  결과 = n1 / n2;
+                break;
+        }
+
+        document.querySelector("#result").innerHTML = 결과;
+        
+    }
+
+    // function plus(){
+    //     getData('+');
+    //    //  document.querySelectorAll(".box");  다수의 태그선택시
+    // }
+    // function minus(){
+    //     getData('-');
+    // }
+    // function mul(){
+    //     getData('*');
+    // }
+    // function div(){
+    //     getData('/');
+    // }
+
+</script>
+</head>
+<body>
+   
+    <div id="input_box">
+        <input type="text" id="num1">
+        <input type="text" id="num2">
+    </div>
+    <button onclick="getData('+')"> 더하기 </button>
+    <button onclick="getData('-')">빼기</button>
+    <button onclick="getData('*')">곱하기</button>
+    <button onclick="getData('/')">나누기</button>
+
+    <div id="result"></div>
+
+</body>
+</html>

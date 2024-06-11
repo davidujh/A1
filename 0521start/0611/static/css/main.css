@@ -1,0 +1,25 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+#wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0 auto;
+    width: 380px;
+    
+    
+    
+}
+.box{
+    display: flex;
+    line-height: 130px;
+    text-align: center;
+    width: 100px;
+    height: 150px;
+    border: 1px solid black;
+    
+}
+.box:first-child{background-color: red; color:white}
+.box:nth-child(2),:nth-child(5){background-color: yellow;}
+.box:nth-child(3),:nth-child(4){background-color: green; color: white;}

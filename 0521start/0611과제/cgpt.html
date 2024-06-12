@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Random Numbers</title>
+<style>
+ 
+</style>
+</head>
+<body>
+
+<button onclick="Numbers()">표시</button>
+<div id="output"></div>
+
+<script>
+function Numbers() {
+  var output1 = document.getElementById('output');
+  output1.innerHTML = ''; 
+  
+  for (var i = 1; i <= 5; i++) {
+    var line = '';
+    for (var j = 1; j <= 4; j++) {
+      var randomNumber = Math.floor(Math.random() * 50) + 1;
+      line += randomNumber + ' ';
+    }
+    output1.innerHTML += line + '<br>';
+  }
+}
+</script>
+
+</body>
+</html>

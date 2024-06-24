@@ -33,6 +33,7 @@ boardInit = function(){
 start  = function(){
     stateInit();
     imgLocation();
+    $(".item").on("click",imgClick);
 
 }
 
@@ -60,6 +61,15 @@ imgLocation = function(){
     imgPlace = temp.concat(temp);
     console.log(imgPlace);
     imgPlace = shuffle(); //imgPlace에 저장된 값을 섞어주기 위한 함수 실행
+
+    $(".item").each(function(i){
+        $(this).find("img").attr("src","./static/image"+imgName[imgPlace[i]]);
+        $(this).find("img").removeClass("hide");
+    })
+
+    setTimeout(function(){
+        $(".item>img").addClass("hide");
+    }, 1000);
 
 
 }

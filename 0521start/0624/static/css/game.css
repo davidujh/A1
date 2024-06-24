@@ -33,8 +33,13 @@ img{ width: 100%;}
     width: 25%;
     padding: 10px;
     height: 250px;
+    display: flex; align-items: center;
 }
 .itemHide{
     background: #aaa;
     height: 100%;
+    width: 100%;
+}
+select{
+    border: 1px solid red;
 }
